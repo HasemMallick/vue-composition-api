@@ -203,7 +203,7 @@ const complexGamesObj = ref({
         </ul>
 
         <!-- destructure -->
-         <ol v-for="({id, author, genre, platform, releaseDate }, index) in complexGamesObj" :key="index">  
+         <ol v-for="({ author, genre, platform, releaseDate }, index) in complexGamesObj" :key="index">  
             <li>{{ author }}</li>
             <li>{{ genre }}</li>
             <li>{{ platform }}</li>
