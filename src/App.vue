@@ -1,10 +1,8 @@
 <script setup>
-import IterationComp from './components/IterationComp.vue';
-
-
+import FormComp from './components/FormComp.vue';
 
 </script>
 
 <template>
-<IterationComp />
+    <FormComp />
 </template>
