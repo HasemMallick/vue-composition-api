@@ -2,7 +2,7 @@
     <div>
         <h2>
         this is child component 
-
+            
         </h2>
     </div>
 </template>
