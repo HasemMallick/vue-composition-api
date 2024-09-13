@@ -1,9 +1,9 @@
         <script setup>
-
+            const msg = "this is a message"
         </script>
 <template>
     <div>
-        <h3>this is another child component</h3>
+        <h2>This is interpolated text: <i>{{ msg }}</i> </h2>
     </div>
 </template>
 
