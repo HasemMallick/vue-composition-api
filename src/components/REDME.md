@@ -4,3 +4,5 @@
 
 
 ## Advance attribute bindings 
+
+## More advance (Dynamic) Attrbute Bindings
