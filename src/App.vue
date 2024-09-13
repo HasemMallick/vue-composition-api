@@ -1,9 +1,10 @@
 <script setup>
-import ComputedComp from './components/ComputedComp.vue';
+import ConditionalRendering from './components/ConditionalRendering.vue';
+
 
 
 </script>
 
 <template>
-  <ComputedComp />
+  <ConditionalRendering />
 </template>
