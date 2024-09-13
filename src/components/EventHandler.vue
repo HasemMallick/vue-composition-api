@@ -4,6 +4,11 @@ import { ref } from "vue"
 
 // To add event we must need *reactive element*
 const count = ref(100)
+
+const n = ref(0)
+
+const incrementN = () => n.value +=5 
+const decrementN = () => n.value -=5
 </script>
 
 <template>
@@ -15,6 +20,13 @@ const count = ref(100)
 
         <!-- @eventName=eventMethod (new & shorthand syntax) -->
         <button @click="count--">Decrement</button>
+    </div>
+
+    <hr>
+    <div>
+        <h2>Counter:  {{ n }}</h2>
+        <button @:click="incrementN" >+</button>
+        <button  @click="decrementN">-</button>
     </div>
 </template>
 <style lang="scss" scoped>
