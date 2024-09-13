@@ -1,9 +1,9 @@
 <script setup>
-import ReactiveComp from './components/ReactiveComp.vue';
-import RefComp from './components/RefComp.vue';
+import ComputedComp from './components/ComputedComp.vue';
+
+
 </script>
 
 <template>
- <!-- <ReactiveComp /> -->
-  <RefComp />
+  <ComputedComp />
 </template>
