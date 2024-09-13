@@ -1,7 +1,7 @@
 <script setup>
-import AttributeBindings from './components/AttributeBindings.vue';
+import AttributeBindingsAdbance from './components/AttributeBindingsAdbance.vue';
 </script>
 
 <template>
-  <AttributeBindings />
+  <AttributeBindingsAdbance />
 </template>
