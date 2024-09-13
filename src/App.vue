@@ -1,7 +1,7 @@
 <script setup>
-import TextInterpolationo from './components/TextInterpolationo.vue';
+import AttributeBindings from './components/AttributeBindings.vue';
 </script>
 
 <template>
-  <TextInterpolationo />
+  <AttributeBindings />
 </template>
