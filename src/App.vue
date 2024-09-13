@@ -1,9 +1,9 @@
 <script setup>
-import EventHandler from './components/EventHandler.vue';
-import FomHandler from './components/FomHandler.vue';
+import ReactiveComp from './components/ReactiveComp.vue';
+import RefComp from './components/RefComp.vue';
 </script>
 
 <template>
-  <!-- <EventHandler />  -->
-  <FomHandler />
+ <!-- <ReactiveComp /> -->
+  <RefComp />
 </template>

@@ -1,7 +1,6 @@
-## There are two ways to add event listener  
-1. v-on:eventName=eventMethod 
+## We can achieve reactivity in two ways 
+- reactive()
+- ref()
 
-
-### To add event we must need *reactive element*
-
-## Two away binding is not included here 
+reactive() can not store primitive data types e.x - string, boolean etc...
+ref() can store all data types 
