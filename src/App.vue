@@ -1,28 +1,22 @@
 <script setup>
-import { reactive } from 'vue'
-import DynamicProps from './components/DynamicProps.vue';
-import ReactiveProps from './components/ReactiveProps.vue';
-import StaticProps from './components/StaticProps.vue';
-import PropValidation from './components/PropValidation.vue';
-import CustomPropValidation from './components/CustomPropValidation.vue';
+import { ref } from 'vue'
+import ComponentEvent from './components/ComponentEvent.vue';
+import FomComponentEvent from './components/FomComponentEvent.vue';
 
-const name = "Hasem"
-const age = 25
-const lang = ['english', 'hindi', 'bengali']
-const obj = {lang: ['english', 'hindi', 'bengali']}
+const count = ref(0)
 
-const count = reactive({count: 0})
-
+const formHandler = (username, email, password) => {
+    console.log("user name: ", username);
+    console.log("user email: ", email);
+    console.log("user password: ", password);
+}
 </script>
 
 <template>
-    <StaticProps name="Hasem Mallick" />
+    <h2>Counter: {{ count }}</h2>
+    <ComponentEvent @incrementCounter="count++" />
+
     <hr>
-    <DynamicProps :name="name" :age="age" :lang="lang" />
-    <hr>
-    <ReactiveProps :count="count.count" />
-    <hr>
-    <PropValidation :name="name" :age="age" :lang="lang" />
-    <hr>
-    <CustomPropValidation :name="name" :age="age" :lang="lang" :obj="obj" />
+
+    <FomComponentEvent @userInfo="formHandler"/>
 </template>
