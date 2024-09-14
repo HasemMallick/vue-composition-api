@@ -1,8 +1,12 @@
 <script setup>
-import MainComp from './components/MainComp.vue';
+import GetDataWithAxios from './components/GetDataWithAxios.vue';
+import GetDataWithFetch from './components/GetDataWithFetch.vue';
+
 
 </script>
 
 <template>
-    <MainComp />
+    <GetDataWithFetch />
+    <hr>
+    <GetDataWithAxios />
 </template>
