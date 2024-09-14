@@ -1,9 +1,11 @@
 <script setup>
-import ToggleAsync from './components/ToggleAsync.vue';
-
+import AnotherComp from './components/AnotherComp.vue';
+import CounterComp from './components/CounterComp.vue';
 
 </script>
 
 <template>
-    <ToggleAsync />
+    <CounterComp />
+    <hr>
+    <AnotherComp />
 </template>
