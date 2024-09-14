@@ -1,11 +1,8 @@
 <script setup>
-import AnotherComp from './components/AnotherComp.vue';
-import CounterComp from './components/CounterComp.vue';
+import MainComp from './components/MainComp.vue';
 
 </script>
 
 <template>
-    <CounterComp />
-    <hr>
-    <AnotherComp />
+    <MainComp />
 </template>
